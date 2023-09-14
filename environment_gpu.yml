@@ -4,8 +4,6 @@ channels:
   - defaults
 dependencies:
   - box2d-py=2.3  # used only in chapter 18, exercise 8
-  - cudatoolkit
-  - cudnn
   - ffmpeg=5.1  # used only in the matplotlib tutorial to generate animations
   - graphviz  # used only in chapter 6 for dot files
   - python-graphviz  # used only in chapter 6 for dot files
@@ -38,8 +36,8 @@ dependencies:
     - tensorflow-addons~=0.17.1  # used in chapters 11 & 16 (for AdamW & seq2seq)
     - tensorflow-datasets~=4.6.0  # datasets repository, ready to use
     - tensorflow-hub~=0.12.0  # trained ML models repository, ready to use
-    - tensorflow-serving-api-gpu  # or tensorflow-serving-api-gpu if gpu
-    - tensorflow-gpu  # Deep Learning library
+    - tensorflow-serving-api  # or tensorflow-serving-api-gpu if gpu
+    - tensorflow  # Deep Learning library
     - transformers~=4.21.3  # Natural Language Processing lib for TF or PyTorch
     - urlextract~=1.6.0  # optionally used in chapter 3, exercise 4
     - gym[classic_control,atari,accept-rom-license]~=0.26.1  # used only in ch18
